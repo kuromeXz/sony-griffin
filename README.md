@@ -2,8 +2,8 @@
 
 
 
-for building custom recovery android 11.0
+for building custom recovery # android 11.0
 
 
 
-# create three by kuromeXz
+# create tree by kuromeXz
