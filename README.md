@@ -2,7 +2,8 @@
 
 
 
-for building custom recovery # android 11.0
+for building custom recovery 
+# android 11.0
 
 
 
