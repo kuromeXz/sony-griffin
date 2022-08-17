@@ -1,4 +1,3 @@
-
 LOCAL_PATH := device/sony/griffin
 
 # A/B
