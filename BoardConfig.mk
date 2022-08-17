@@ -33,8 +33,8 @@ TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
-TARGET_BOARD_SUFFIX := _64
-TARGET_USES_64_BIT_BINDER := true
+
+
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := griffin
@@ -49,9 +49,9 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
-# A/B
-AB_OTA_UPDATER := true
-TW_INCLUDE_REPACKTOOLS := true
+
+
+
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 loop.max_part=7 androidboot.usbcontroller=a600000.dwc3 oemboot.earlymount=/dev/block/platform/soc/1d84000.ufshc/by-name/oem:/mnt/oem:ext4:ro,barrier=1:wait,slotselect,first_stage_mount buildproduct=griffin buildid=KUMANO-1.2.0-211005-1847 panic_on_err=1 buildvariant=user
