@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_griffin-userdebug
-add_lunch_combo omni_griffin-eng
+COMMON_LUNCH_CHOICES omni_griffin-userdebug
+COMMON_LUNCH_CHOICES omni_griffin-eng
